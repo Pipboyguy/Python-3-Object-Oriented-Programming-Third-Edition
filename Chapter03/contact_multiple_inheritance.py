@@ -7,8 +7,12 @@ class Contact:
         self.email = email
         self.all_contacts.append(self)
 
+
 "Special message"
+
+
 class AddressHolder:
+
     def __init__(self, street="", city="", state="", code="", **kwargs):
         super().__init__(**kwargs)
         self.street = street
@@ -21,4 +25,3 @@ class Friend(Contact, AddressHolder):
     def __init__(self, phone="", **kwargs):
         super().__init__(**kwargs)
         self.phone = phone
-print("This worked!")
