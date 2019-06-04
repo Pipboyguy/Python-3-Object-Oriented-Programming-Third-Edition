@@ -21,3 +21,4 @@ class Friend(Contact, AddressHolder):
     def __init__(self, phone="", **kwargs):
         super().__init__(**kwargs)
         self.phone = phone
+print("This worked!")
