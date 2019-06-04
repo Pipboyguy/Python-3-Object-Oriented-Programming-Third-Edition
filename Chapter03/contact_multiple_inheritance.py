@@ -7,7 +7,7 @@ class Contact:
         self.email = email
         self.all_contacts.append(self)
 
-
+"Special message"
 class AddressHolder:
     def __init__(self, street="", city="", state="", code="", **kwargs):
         super().__init__(**kwargs)
