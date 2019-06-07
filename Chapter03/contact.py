@@ -33,7 +33,7 @@ class Friend(Contact):
         self.phone = phone
 
 
-class MailSender:
+class MailSender:  # Mixin class
     def send_mail(self, message):
         print("Sending mail to " + self.email)
         # Add e-mail logic here
