@@ -25,7 +25,7 @@ class Supplier(Contact):
             "'{}' order to '{}'".format(order, self.name)
         )
 
-
+        "Hi there"
 class Friend(Contact):
     def __init__(self, name, email, phone):
         self.name = name
